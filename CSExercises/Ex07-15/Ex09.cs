@@ -10,7 +10,14 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("put a x  ");
+            double x = Convert.ToDouble(Console.ReadLine());
+            double y = 2 * x* x - 4 * x + 3;
+            Console.WriteLine("the value of y is  "+y);
+
+
+
+
         }
     }
 }

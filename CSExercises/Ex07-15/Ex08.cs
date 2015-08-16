@@ -10,6 +10,12 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("put a temperature");
+            double a = Convert.ToDouble(Console.ReadLine());
+            double b = 1.8 * a + 32;
+
+            Console.WriteLine("Fahrenheit is " + b);
+
             
         }
     }
